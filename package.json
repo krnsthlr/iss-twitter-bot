@@ -1,0 +1,17 @@
+{
+  "name": "iss-twitter-bot",
+  "version": "1.0.0",
+  "description": "Twitter bot that sends pass times for the international space station (for a given location).",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "krnsthlr",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "moment": "^2.18.1",
+    "twit": "^2.2.9"
+  }
+}
